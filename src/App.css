@@ -1,0 +1,204 @@
+.app{
+    margin: 80px;
+}
+.Header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1B262C;
+    height: 200px;
+    
+}
+
+.Header ul{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    background-color: #1B262C;
+}
+.links{
+    background-color: #1B262C;
+
+}
+
+.Header ul li{
+    list-style: none;
+    padding: 25px;
+    background-color: #1B262C;
+
+    
+}
+
+.Header ul li a{
+    text-decoration: none;
+    background-color: #1B262C;
+
+    
+}
+.Header ul li a .active p {
+    font-size: 50px;
+    font-weight: 600
+}
+
+.Header ul li p{
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins", system-ui;
+    background-color: #1B262C;
+    font-style: normal;
+    font-size: 25px;
+    
+}
+
+.logo{
+    color: white;
+    background-color: #1B262C;
+    font-family: "Poppins", system-ui;
+    font-size: 40px;
+}
+
+.button{
+    background: linear-gradient(45deg,#3A5E72,#5C93B1);
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    outline: none;
+    border-style: none;
+    cursor: pointer;
+}
+
+
+.Home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1B262C;
+}
+
+.Home p{
+    font-family: "Poppins", system-ui;
+    color: white;
+    background-color: #1B262C;
+    font-style: medium;
+    font-size: 40px;
+}
+
+.Home p span{
+    font-family: "Poppins", system-ui;
+    color: white;
+    background-color: #1B262C;
+    font-style: bold;
+    font-size: 40px;
+    font-weight: 700;
+
+    
+    background: linear-gradient(to right, #CAECFF 0%,#78CFFF 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.weather{
+    background-color: #24343D;
+    place-self: center;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-bar{
+    background-color: #24343D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.search-bar input{
+    background-color: #1B262C;
+    height: 70px;
+    width: 250px;
+    outline: none;
+    border: none;
+    padding-left: 25px;
+    font-size: 18px;
+    color: white;
+    
+}
+.search-bar img{
+    background-color: #24343D;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.weather-icon{
+    background-color: #24343D;
+    width: 150px;
+    margin: 30px 0;
+}
+.temperature{
+    color: white;
+    font-size: 80px !important; 
+    line-height: 1;
+    background-color: #24343D !important;
+}
+.location{
+    color: white;
+    background-color: #24343D !important;
+    font-size: 40px;
+}
+
+.desciption{
+    background: linear-gradient(to right, #CAECFF 0%,#78CFFF 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px !important;
+}
+
+.weather-data{
+    width: 100%;
+    margin-top: 40px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    background-color: #24343D
+}
+.weather-data .col{
+    display: flex;
+    
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 22px;
+    background-color: #24343D
+}
+
+.weather-data .col span{
+    display: block;
+    font-size: 16px;
+    background-color: #24343D
+}
+
+.weather-data .col img{
+    width: 26px;
+    background-color: #24343D
+   
+}
+
+.Footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #1B262C;
+    height: 100px;
+    color: white;
+    font-family: "Poppins", system-ui;
+    font-size: 40px;
+}
